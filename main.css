@@ -1,0 +1,16 @@
+@font-face {
+    font-family: iran;
+    src: url(IRANSansX-Medium.woff2);
+}
+*{
+    font-family: iran;
+    box-sizing: border-box;
+    direction: rtl;
+}
+body{
+    font-size: 16px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}

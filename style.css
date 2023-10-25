@@ -1,0 +1,176 @@
+
+header{
+    font-size: 1em;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    font-size: 1em;
+}
+header nav .nav-right{
+    display: flex;
+    align-items: center;
+}
+
+header nav .nav-right a{
+    color: #444;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    font-size: 1.1em;
+}
+head nav .nav-left .box-search-icon{
+    width: 120px;
+    height: 20px;
+    border: solid black 2px;
+    
+}
+
+#user-icon:hover .box-search-icon{
+    width: 120px;
+    height: 20px;
+    border: solid black 2px;
+}
+
+header nav .nav-left{
+
+}
+header nav .nav-left .register-login-btn{
+    border: 1px solid #666;
+    padding: 5px 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav .nav-left .register-login-btn i{
+    margin: 7px;
+    color: #444;
+    font-size: 1.1em;
+}
+header nav .nav-left .register-login-btn a{
+    color: #444;
+    margin: 0px 10px;
+    font-size: .9em;
+}
+
+/*section slider*/
+
+.slider{
+    position: relative;
+    font-size: 1em;
+}
+.slider .slides{    
+    width: 100%;
+    height: 650px;
+}
+.slider .slides .item{    
+    position: relative;
+    display: none;
+}
+.slider .slides .item img{    
+    width: 95%;
+    
+}
+#slide1{
+    width: 100%;
+    height: 650;
+}
+#slide1 img{
+    margin-right: 0px;
+    width: 100%;
+    height: 650px;
+}
+#slide1 span{
+    margin-top: 35px;
+}
+
+#slide2{
+    width: 90%;
+    margin-top: -10px;
+    margin-right: 150px;
+}
+#slide2 img{
+    width: 1536px;
+    height: 650px;
+    margin-right: -150px;
+    margin-top: 10px;
+}
+#slide2 span{
+    margin-right: -195px;
+    color: #333;
+}
+.slider .slides .item span{    
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    font-size: 1.5em;
+}
+.slider .slides .active{
+    display: block;
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+}
+.slider .buttons{
+    position: absolute;
+    bottom: 35px;
+    left: 90px;
+    z-index: 1;
+}
+.slider .buttons i{
+    color: rgba(47, 33, 102, 0.4);
+    margin-right: 5px;
+    cursor: pointer;
+}
+.slider .buttons i:hover{
+    color: rgba(116 , 134 , 41, 0.9);
+}
+
+
+/*product section*/
+
+
+.product-sec-new{
+    padding: 20px 10px;
+    font-size: 1em;
+}
+.product-sec-new .shoping-card{
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(255, 255, 255, .2);
+    margin: 10px 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.shoping-card .img-sec{
+
+}
+.shoping-card .img-sec img{
+    width: 60%;
+}
+.shoping-card .img-sec .hot-offer{
+
+}
+.shoping-card .img-sec .stars{
+
+}
+.shoping-card .title{
+
+}
+.shoping-card .buttons{
+
+}
+.shoping-card .buttons .right{
+
+}
+.shoping-card .buttons .right .price{
+
+}
+.shoping-card .buttons .left .extend-btn{
+
+}
+.shoping-card .buttons .left .extend-btn a{
+
+}
+.shoping-card .buttons .left .extend-btn a i{
+
+}
